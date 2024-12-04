@@ -1,0 +1,8 @@
+{
+  "extends": ["react-app"],
+  "rules": {
+    "no-unused-expressions": "off",
+    "no-restricted-globals": "off"
+  },
+  "ignorePatterns": ["**/vendor/**", "**/*.min.js", "build/*", "dist/*"]
+}

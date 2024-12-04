@@ -1,0 +1,448 @@
+
+:root{
+	--mc1: #01a3f4;
+	--mc2: #e37fde;
+	--hc: #fff;
+	--bc: #fff;
+	--hff: 'Heebo', sans-serif;
+	--bff: 'Nunito', sans-serif;
+}
+
+
+
+
+/*------------------------------------------------------------------*/
+/*	09) Animated Text
+/*------------------------------------------------------------------*/
+.fn_animated_text{
+	margin: 0;
+	font-size: 15px;
+	color: rgba(255,255,255,.8);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+.fn_animated_text.small{
+	font-size: 18px;
+}
+.fn_animated_text .letter {
+	color: rgba(255,255,255,.8);
+	opacity: 0;
+	transform: translate(-300px, 0) scale(0);
+	display: inline-block;
+}
+
+@keyframes FrenifyLetterAnimation {
+	60% {
+		transform: translate(20px, 0) scale(1);
+		color: rgba(255,255,255,.8);
+	}
+
+	80% {
+		transform: translate(20px, 0) scale(1);
+		color: rgba(255,255,255,.8);
+	}
+
+	99% {
+		transform: translate(0) scale(1.2);
+		color: var(--mc2);
+	}
+
+	100% {
+		transform: translate(0) scale(1);
+		opacity: 1;
+		color: rgba(255,255,255,.8);
+	}
+}
+.fn_animated_text[data-color="black"] .letter{
+	color: #000;
+}
+@keyframes FrenifyLetterAnimationblack {
+	60% {
+		transform: translate(20px, 0) scale(1);
+		color: #000;
+	}
+
+	80% {
+		transform: translate(20px, 0) scale(1);
+		color: #000;
+	}
+
+	99% {
+		transform: translate(0) scale(1.2);
+		color: var(--mc2);
+	}
+
+	100% {
+		transform: translate(0) scale(1);
+		opacity: 1;
+		color: #000;
+	}
+}
+
+
+/*------------------------------------------------------------------*/
+/*	13) Title with Divider
+/*------------------------------------------------------------------*/
+.fn_cs_title .desc{
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	font-size: 18px;
+	justify-content: center;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding-top: 21px;
+}
+.fn_cs_title .divider{
+	width: 444px;
+	max-width: 100%;
+	height: 16px;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.fn_cs_title .divider .line{
+	background-color: transparent !important;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+	left: 0;
+	right: 0;
+}
+.fn_cs_title .divider .line:after{
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 50%;
+	background-color: var(--mc2);
+	transform: translateX(500px);
+	opacity: 0;
+	transition: all .6s ease;
+}
+.fn_cs_title .divider .line:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 50%;
+	background-color: var(--mc2);
+	transform: translateX(-500px);
+	opacity: 0;
+	transition: all .6s ease;
+}
+.fn_cs_title .divider .middle{
+	position: absolute;
+	width: 96px;
+	height: 100%;
+	clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%);
+	left: 50%;
+	margin-left: -48px;
+	transition: all .3s .3s ease;
+}
+.fn_cs_title .divider .left2{
+	width: 38px;
+	height: 100%;
+	clip-path: polygon(0 0, 79% 0, 100% 100%, 21% 100%);
+	right: 50%;
+	margin-right: 54px;
+	position: absolute;
+	transition: all .3s .5s ease;
+}
+.fn_cs_title .divider .left1{
+	width: 20px;
+	height: 100%;
+	clip-path: polygon(0 0, 60% 0, 100% 100%, 40% 100%);
+	right: 50%;
+	margin-right: 97px;
+	position: absolute;
+	transition: all .3s .7s ease;
+}
+.fn_cs_title .divider .right2{
+	width: 38px;
+	height: 100%;
+	clip-path: polygon(21% 0, 100% 0, 79% 100%, 0 100%);
+	left: 50%;
+	margin-left: 54px;
+	position: absolute;
+	transition: all .3s .5s ease;
+}
+.fn_cs_title .divider .right1{
+	width: 20px;
+	height: 100%;
+	clip-path: polygon(40% 0, 100% 0, 60% 100%, 0 100%);
+	left: 50%;
+	margin-left: 97px;
+	position: absolute;
+	transition: all .3s .7s ease;
+}
+.fn_cs_title .divider .middle,
+.fn_cs_title .divider .right1,
+.fn_cs_title .divider .right2,
+.fn_cs_title .divider .left1,
+.fn_cs_title .divider .left2{
+	transform: translateY(50px);
+	opacity: 0;
+}
+.fn_cs_title.ready .divider .middle,
+.fn_cs_title.ready .divider .right1,
+.fn_cs_title.ready .divider .right2,
+.fn_cs_title.ready .divider .left1,
+.fn_cs_title.ready .divider .left2{
+	transform: translateY(0px);
+	opacity: 1;
+}
+.fn_cs_title.ready .divider .line:after,
+.fn_cs_title.ready .divider .line:before{
+	transform: translateX(0px);
+	opacity: 1;
+}
+.maintitle,
+.fn_cs_title .title{
+	margin: 0;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0;
+	line-height: 1.1;
+	text-align: center;
+        font-family: var(--hff);
+}
+.fn_cs_title .divider[data-color="1"] .line:after,
+.fn_cs_title .divider[data-color="1"] .line:before,
+.fn_cs_title .divider[data-color="1"] div{
+	background-color: var(--mc1);
+}
+.fn_cs_title .divider[data-color="2"] .line:after,
+.fn_cs_title .divider[data-color="2"] .line:before,
+.fn_cs_title .divider[data-color="2"] div{
+	background-color: var(--mc2);
+}
+.maintitle[data-color="black"],
+.fn_cs_title .title[data-color="black"]{
+	color: #000;
+}
+.maintitle[data-color="white"],
+.fn_cs_title .title[data-color="white"]{
+	color: #fff;
+}
+.fn_cs_title .title span{
+	color: var(--mc2);
+}
+.fn_cs_title .title.small{
+	font-size: 36px;
+	padding-top: 4px;
+}
+.fn_cs_title .desc[data-color="black"]{
+	color: #000;
+}
+
+.metaverse_fn_pagetitle .pagetitle{
+	padding: 260px 0 140px;
+	text-align: center;
+}
+.metaverse_fn_pagetitle .fn_cs_title .divider{
+	margin-bottom: 0;
+}
+.metaverse_fn_pagetitle .fn_cs_title{
+	position: relative;
+	z-index: 1;
+}
+.metaverse_fn_pagetitle .fn_cs_title:after{
+	left: 0;
+	right: 0;
+	height: 2px;
+	content: '';
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+	background-color: rgba(255,255,255,.3);
+	z-index: -1;
+}
+.metaverse_fn_pagetitle p a{
+	color: var(--bc);
+	text-decoration: none;
+}
+.metaverse_fn_pagetitle p a:hover{
+	color: var(--mc2);
+}
+.metaverse_fn_pagetitle p{
+	margin: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+.metaverse_fn_pagetitle .pagetitle .divider{
+	margin: 0 10px;
+}
+
+/*------------------------------------------------------------------*/
+/*	41) Cookies, Terms & Conditions, Privacy Policy pages
+/*------------------------------------------------------------------*/
+.metaverse_fn_simple{
+	padding: 127px 0 143px;
+}
+
+.fn__title{
+	letter-spacing: 0;
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 4px;
+	padding-top: 17px;
+}
+.fn__divider{
+	width: 100%;
+	height: 8px;
+	position: relative;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 45px;
+}
+.fn__divider .line{
+	width: 120px;
+	height: 2px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+	left: 0;
+	background-color: var(--mc2);
+}
+.fn__divider .line:after,
+.fn__divider .line:before{
+	content: '';
+	height: 2px;
+	position: absolute;
+	left: 100%;
+	background-color: var(--mc2);
+	top: 0;
+	bottom: 0;
+}
+.fn__divider .line:before{
+	margin-left: 4px;
+	width: 20px;
+}
+.fn__divider .line:after{
+	margin-left: 28px;
+	width: 6px;
+}
+.fn__divider [class^="a"]{
+	width: 11px;
+	height: 8px;
+	display: block;
+	background-color: var(--mc2);
+	-webkit-clip-path: polygon(30% 0, 100% 0, 70% 100%, 0 100%);
+	-o-clip-path: polygon(30% 0, 100% 0, 70% 100%, 0 100%);
+	clip-path: polygon(30% 0, 100% 0, 70% 100%, 0 100%);
+	margin-right: 6px;
+}
+.metaverse_fn_simple p{
+	font-size: 18px;
+	margin-bottom: 38px;
+}
+.metaverse_fn_simple .container > *:last-child{
+	margin-bottom: 0;
+}
+
+
+/*------------------------------------------------------------------*/
+/*	29) Contact Page
+/*------------------------------------------------------------------*/
+.metaverse_fn_contactpage{
+	padding: 148px 0 142px;
+}
+.metaverse_fn_contactpage .fn_cs_contact_form{
+	margin-bottom: 45px;
+}
+.metaverse_fn_contactpage .fn_cs_contact_info{
+	padding-top: 0;
+}
+.metaverse_fn_contactpage .fn_cs_desc p{
+	font-size: 18px;
+	margin-bottom: 27px;
+}
+.metaverse_fn_contactpage .fn_cs_desc p:last-child{
+	margin-bottom: 0;
+}
+/*------------------------------------------------------------------*/
+/*	18) Contact Section & Shortcode
+/*------------------------------------------------------------------*/
+#contact{
+	padding: 150px 0;
+}
+.fn_cs_contact_info{
+	padding: 84px 0 33px;
+}
+.fn_cs_contact_info p{
+	margin-bottom: 27px;
+}
+.fn_cs_contact_info p:last-child{
+	margin-bottom: 0;
+}
+.fn_cs_contact_info ul{
+	margin: 0;
+	list-style-type: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -45px;
+}
+.fn_cs_contact_info li{
+	padding-left: 45px;
+	/* width: 50%; */
+	margin-bottom: 40px;
+}
+.fn_cs_contact_info h4{
+	margin: 0;
+	margin-bottom: 9px;
+	font-weight: 900;
+	color: var(--mc2);
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 0px;
+}
+.fn_cs_contact_info h3{
+	margin: 0;
+	margin-bottom: 39px;
+	font-weight: 300;
+	letter-spacing: 0;
+	font-size: 24px;
+	font-family: var(--bff);
+	max-width: 400px;
+}
+.fn_cs_contact_info .item *:last-child{
+	margin-bottom: 0;
+}
+.fn_cs_contact_info a:hover{
+	color: var(--mc2);
+}
+
+
+@media (max-width: 1200px){
+        .hero_header .info .count, .fn_cs_title .title, .maintitle, .hero_header .title {
+                font-size: 40px;
+        }
+}
+@media (max-width: 767.98px){
+    .metaverse_fn_contactpage{
+        padding: 40px 0 40px;
+    }
+}

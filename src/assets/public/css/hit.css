@@ -1,0 +1,1441 @@
+
+
+ .nt-footer .nt-footer-content.social a p {
+
+     font-size: 14px;
+
+     color: #bebebe;
+
+ }
+
+ .icon-box-outer svg,
+ .single-statics .icon-box svg {
+     width: 40px;
+     height: 54px;
+ }
+
+ .deposit-section-right .icon-box-outer svg {
+     width: 40px;
+     height: 54px;
+     position: absolute;
+     left: 50%;
+     margin-left: -20px;
+     top: 50%;
+     margin-top: -26px;
+ }
+
+ .single-statics .icon-box svg path {
+     fill: #f50;
+ }
+
+ .icon-box-outer svg path {
+     fill: #fff;
+ }
+
+ .single-box svg {
+     width: 98px;
+     height: 133px;
+ }
+
+ .single-box svg path {
+     fill: #fb9516
+ }
+
+ .calculate-left svg {
+     width: 50px;
+     height: 68px;
+ }
+
+ .calculate-left svg path {
+     fill: #fff
+ }
+
+ .signup-right-text svg {
+     width: 30px;
+     height: 45px;
+     position: absolute;
+     color: #fff;
+     top: 50%;
+     right: 20px;
+     transform: translateY(-50%);
+ }
+
+ .signup-right-text svg path {
+     fill: #eef4fb;
+ }
+
+ .questions-section .questions-tab-content .questions-tab-pane .questions-accordion .questions-card .questions-card-header .questions-btn-link {
+     position: relative;
+ }
+
+ .questions-section .questions-tab-content .questions-tab-pane .questions-accordion .questions-card .questions-card-header .questions-btn-link:before,
+ .questions-section .questions-tab-content .questions-tab-pane .questions-accordion .questions-card .questions-card-header .collapsed:before {
+     top: 50% !important;
+     right: -15px !important;
+     transform: translateY(-50%);
+ }
+
+ .nt-lists:nth-child(2) {
+     display: none !important;
+ }
+
+ .deposit-section .deposit-section-right .icon-box-outer .icon-box {
+     position: relative;
+ }
+
+ .iti.iti--allow-dropdown {
+     width: 100%;
+ }
+
+ .iti__country-list {
+     width: 400px;
+     white-space: normal;
+ }
+
+ .nt-page .nt-auth-wrap .nt-social-login li a {
+     border-radius: 4px;
+     width: 100%;
+     height: 44px;
+     position: relative;
+ }
+
+ .nt-page .nt-auth-wrap .nt-social-login li a span.s-btn-text {
+     color: #fff;
+     font-weight: 600;
+ }
+
+ .nt-page .nt-auth-wrap .nt-social-login span.icon-box {
+     position: absolute;
+     left: 15px;
+     width: 20px;
+     border-right: 1px solid rgba(255, 255, 255, .4);
+     padding-right: 30px;
+ }
+
+ .g-recaptcha>div {
+     margin: 0 auto;
+ }
+
+ .nt-page .nt-auth-wrap .nt-form-header {
+     max-width: 320px !important;
+     margin: 0 auto;
+ }
+
+ .login-hidden-body {
+     display: none;
+ }
+
+ .nt-page .nt-auth-wrap .nt-social-login li a.elrond {
+     background: #7532B4;
+ }
+
+ .nt-page .nt-auth-wrap .nt-social-login li a.email {
+     background: rgb(82, 176, 48);
+ }
+
+ #login-wallet {
+     display: none;
+ }
+
+ .login-email {
+     margin: 10px;
+     text-align: center;
+ }
+
+ a.login-email-btn,
+ a.login-wallet-btn {
+     background: rgb(82, 176, 48);
+     width: 100%;
+     display: block;
+     height: 44px;
+     border-radius: 4px;
+     color: #fff;
+     font-weight: 600;
+     padding: 10px;
+     text-decoration: none;
+     position: relative;
+ }
+
+ a.login-email-btn,
+ a.login-email-btn {
+     background: rgb(82, 176, 48);
+     width: 100%;
+     display: block;
+     height: 44px;
+     border-radius: 4px;
+     color: #fff;
+     font-weight: 600;
+     padding: 10px;
+     text-decoration: none;
+     position: relative;
+ }
+
+ a.login-email-btn .icon-box svg {
+     width: 24px !important;
+     height: 24px;
+ }
+
+ a.login-email-btn span.icon-box {
+     position: absolute;
+     left: 15px;
+     width: 20px;
+     border-right: 1px solid rgba(255, 255, 255, .4);
+     padding-right: 30px;
+ }
+
+ .back-to-social,
+ .back-to-home {
+     background: rgb(232, 240, 254) !important;
+     color: #000 !important;
+ }
+
+ .login-email h3 {
+     color: #fff;
+     font-size: 16px;
+     text-transform: uppercase;
+     padding-top: 20px;
+     font-weight: 600;
+ }
+
+ footer.text-center.nt-form-footer.p-3 {
+     max-width: 350px;
+     margin: 0 auto;
+ }
+
+ .nt-page .nt-auth-wrap .nt-social-login li {
+     width: 100% !important;
+ }
+
+ .error-validation {
+     display: none;
+     color: red;
+ }
+
+ .error-validation-main {
+     display: none;
+ }
+
+ .notification {
+     width: 60vw;
+     height: 40px;
+     border-radius: 0px 0px 5px 5px;
+     margin: 0 auto;
+     box-shadow: #95a5a6 0px 0px 6px 2px;
+     color: white;
+     line-height: 40px;
+     overflow: hidden;
+     -webkit-animation: reveal 1 2s;
+     animation: reveal 1 2s;
+ }
+
+ .notification .title {
+     margin-right: 15px;
+     padding: 0px 15px;
+     line-height: 40px;
+     display: inline-block;
+ }
+
+ .notification .close-message {
+     background: rgba(255, 255, 255, 0.2);
+     padding: 0px 15px;
+     float: right;
+     line-height: 40px;
+     display: inline-block;
+     color: white;
+ }
+
+ .notification .close-message:hover {
+     cursor: pointer;
+ }
+
+ .notification .closed {
+     transform: translate(0px, -50px);
+     transition: 0.7s;
+ }
+
+ .notification-success {
+     background: #2ecc71;
+ }
+
+ .notification-success .title {
+     background: #27ae60;
+ }
+
+ .notification-error {
+     background: #e74c3c;
+ }
+
+ .notification-error .title {
+     background: #c0392b;
+ }
+
+ .notification-warning {
+     background: #f1c40f;
+ }
+
+ .notification-warning .title {
+     background: #f39c12;
+ }
+
+ .notification-normal {
+     background: #3498db;
+ }
+
+ .notification-normal .title {
+     background: #2980b9;
+ }
+
+ .nt-footer-license {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .license-icon {
+     margin-right: 10px;
+ }
+
+ .license-icon img {
+     width: 36px;
+ }
+
+
+ .nt-ad-banner-section {
+     margin-top: 0px !important;
+ }
+
+ @media only screen and (max-width: 991.98px) {
+     .nt-page .header-space {
+         height: 130px;
+     }
+ }
+
+
+ @media screen and (max-width: 991px) {
+
+     .nt-page .reunir-navbar #primary-menu .nav-item .nav-link,
+     .reunir-navbar .navbar-nav .nav-link {
+         font-size: 12.5px !important;
+     }
+
+     .signup-right-text svg {
+         right: 10px;
+         width: 24px;
+     }
+
+     .iti__country-list {
+         width: 340px;
+     }
+
+ }
+
+ @media screen and (max-width: 767.98px) {
+     .iti__country-list {
+         width: 325px;
+         white-space: normal;
+     }
+ }
+
+ @media screen and (max-width: 575.98px) {
+     .iti__country-list {
+         width: calc(100vw - 95px);
+     }
+
+     .notification {
+         width: 100%;
+         height: auto;
+     }
+ }
+
+ @media screen and (max-width: 280px) {
+     .reunir-navbar .logo-section .logo-title img {
+         display: none;
+     }
+
+ }
+
+ body {
+     font-family: 'PayPal Sans Small', 'sans-serif' !important;
+ }
+
+ * {
+     font-family: 'PayPal Sans Small' !important;
+ }
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        .nt-hitandwin-banner {
+            background: linear-gradient(120deg, #7e87f1 10%, #d00102 100%);
+            border-radius: 10px;
+            padding: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glow-numbers {
+            color: white;
+            font-family: 'Unibet Pro' !important;
+            font-size: 70px;
+            line-height: 90px;
+            font-weight: 100;
+            vertical-align: middle;
+            text-align: center;
+            -webkit-transition: .40s ease-in-out;
+            -moz-transition: .40s ease-in-out;
+            -ms-transition: .40s ease-in-out;
+            -o-transition: .40s ease-in-out;
+            transition: .40s ease-in-out;
+            -webkit-text-fill-color: rgba(26, 26, 26, 0);
+            -webkit-text-stroke-width: 1.6px;
+            -webkit-text-stroke-color: #d00102;
+            width: 50px;
+            display: block;
+            -webkit-text-fill-color: #202632;
+        }
+
+        .nt-hitandwin-banner-caption {
+            color: #fff;
+            text-align: center;
+            width: 50%;
+        }
+
+        .nt-hitandwin-banner-caption h3 {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+            font-family: 'Open Sans', sans-serif;
+            margin-bottom: 0px;
+        }
+
+        .nt-hitandwin-banner-caption h3 span {
+            display: block;
+        }
+
+        .nt-hitandwin-banner-caption p {
+            color: #fff !important;
+            font-size: 12px !important;
+        }
+
+        .nt-hitandwin-banner-caption a {
+            background: #fff;
+            padding: 5px 20px;
+            font-size: 12px;
+            border-radius: 100px;
+            color: #7e87f1;
+            border: 1px solid #fff;
+            text-transform: uppercase;
+            font-weight: 600;
+            box-shadow: 3px 3px 5px 1px rgb(0 0 0 / 10%);
+        }
+
+        .nt-hitandwin-banner-caption a:hover {
+            color: #fff;
+            background: #d00102;
+            border-color: #d00102;
+        }
+
+
+        .nt-slips-list {
+            border-radius: 10px;
+        }
+
+        .nt-hitandwin-banner-player {
+            position: absolute;
+            top: 34px;
+            right: -30px;
+            width: 300px;
+            opacity: 1;
+            transform: rotate(-29deg);
+        }
+
+        .nt-create-account-step {
+            display: flex;
+            margin: 15px -5px;
+        }
+
+        .nt-create-account-step .nt-item {
+            width: 33.333%;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .nt-create-account-step .nt-item .nt-item-inner {
+            background: #242a37;
+            border-radius: 10px;
+            padding: 10px;
+            color: #fff;
+            font-size: 13px;
+            min-height: 140px;
+        }
+
+        .nt-create-account-step .nt-number {
+            width: 50px;
+            height: auto;
+            margin: 1px auto;
+            font-weight: 700;
+            opacity: 0.8;
+        }
+
+        .nt-create-account-step .nt-title {
+            font-size: 13px;
+            line-height: 18px;
+            font-weight: 500;
+        }
+
+        .nt-progress .progress-bar {
+            background: linear-gradient(120deg, #7e87f1 10%, #d00102 100%);
+        }
+
+        .nt-progress .progress {
+            position: relative;
+            height: 44px;
+            border: 2px solid #242a37;
+            background: transparent;
+            border-radius: 10px;
+        }
+
+        .nt-vs-list {
+            border-radius: 10px;
+        }
+
+        .nt-vs-list .nt-item {
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+
+        .nt-vs-list .nt-item .nt-item-inner {
+            background: #242a37;
+            color: #fff;
+            padding: 10px 15px;
+            display: block;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        .nt-vs-list .nt-item .nt-item-inner .nt-team span.nt-vs {
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .nt-vs-list .nt-item .nt-item-inner .nt-team span.nt-vs {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .nt-point-item {
+            position: relative;
+            height: 32px;
+            overflow: hidden;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .nt-point-item label,
+        .nt-point-item input {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+        }
+
+        .nt-point-item input[type="radio"] {
+            opacity: 0.011;
+            z-index: 100;
+        }
+
+        .nt-point-item input[type="radio"]:checked+label {
+            background: linear-gradient(120deg, #d00102 10%, #6b0204 100%);
+            border-radius: 10px;
+        }
+
+        .nt-point-item label {
+            display: flex;
+            background: #2c3442;
+            border-radius: 10px;
+            padding: 5px 10px;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 12px;
+            cursor: pointer;
+            height: 32px;
+            align-items: center;
+            color: #fff;
+            border: 0;
+        }
+
+        .nt-point-item:hover input,
+        .nt-point-item:hover label,
+        .nt-point-item:hover,
+        .nt-point-item.active {
+            background: linear-gradient(120deg, #d00102 10%, #6b0204 100%) !important;
+        }
+
+        .nt-point.row {
+            margin-top: 20px;
+        }
+
+        .nt-list-submit {
+            color: #000;
+        }
+
+        .nt-list-submit {
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+
+        .nt-list-submit button {
+            text-decoration: none;
+            background: linear-gradient(90deg, #d00102 0, #6b0204 100%);
+            padding: 10px 30px;
+            border-radius: 10px;
+            color: #fefefe;
+            border: 0;
+            background-image: -ms-linear-gradient(0deg, transparent 0, transparent 100%);
+            transition: all .3s ease-in;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+
+      
+        .swal2-popup {
+            background: #2c3442;
+        }
+
+        .swal2-popup div#swal2-html-container {
+            color: #e1e1e1;
+            font-size: 14px;
+        }
+
+        .swal2-popup button.swal2-confirm {
+            background-image: linear-gradient(90deg, #d00102 0, #6b0204 100%) !important;
+            padding: 8px 20px;
+        }
+
+        .nt-fixture-id,
+        .nt-date {
+            display: none;
+        }
+
+
+        .nt-team div {
+            max-width: 100% !important;
+            display: flex;
+            margin-bottom: 5px;
+            align-items: center;
+        }
+
+        .nt-team div img {
+            width: 28px;
+            margin-left: 10px;
+            max-height: 30px;
+        }
+
+
+        .nt-hitandwin-tabs-nav .nav-link {
+            width: 100%;
+            border: 0;
+            border-radius: 0;
+            background: #242a37;
+            color: #fff;
+        }
+
+        .nt-hitandwin-tabs-nav .nav-item:first-child .nav-link {
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+
+        .nt-hitandwin-tabs-nav .nav-item:last-child .nav-link {
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+
+        .nt-hitandwin-tabs-nav .nav-link.active {
+            background: linear-gradient(120deg, #d00102 10%, #6b0204 100%) !important;
+            color: #fff;
+        }
+
+        .nt-slips-inner {
+            background: #242a37;
+            color: #fff;
+            display: flex;
+            padding: 10px;
+            border-bottom: 1px solid #454d55;
+            cursor: pointer;
+        }
+
+        .nt-slips-item:nth-child(odd) .nt-slips-inner {
+            background: #222530;
+        }
+
+        .nt-slips-inner .nt-slip-date-and-won-lost {
+            width: 40%;
+            display: flex;
+        }
+
+        .nt-slips-inner .nt-slip-won-lost {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+        }
+
+        .nt-slips-inner .nt-slip-id {
+            width: 40%;
+        }
+
+        .nt-slips-inner .nt-slip-validation {
+            width: 20%;
+        }
+
+
+        .nt-slips-inner div span {
+            border-radius: 100px;
+            padding: 5px 15px;
+            font-size: 12px;
+        }
+
+        .nt-slips-inner .nt-slip-won-lost div {
+            margin: 0 2px;
+        }
+
+        .nt-slips-inner .nt-slip-won-lost div span {
+            width: 20px;
+            height: 20px;
+            color: #fff;
+            text-align: center;
+            border-radius: 100px;
+            padding: 0;
+            display: block;
+        }
+
+        .nt-slips-inner .nt-slip-won-lost .nt-slip-won span {
+            background: #27ae60;
+        }
+
+        .nt-slips-inner .nt-slip-won-lost .nt-slip-lost span {
+            background: #c0392b;
+        }
+
+
+        span.nt-tag-processing {
+            background: #f39c12;
+        }
+
+        span.nt-tag-won {
+            background: #27ae60;
+        }
+
+        span.nt-tag-lost {
+            background: #c0392b;
+        }
+
+        .nt-slips-inner .nt-slip-id {
+            text-align: center;
+        }
+
+        .nt-slips-inner .nt-slip-validation {
+            text-align: right;
+        }
+
+        .nt-slips-inner .nt-slip-validation span {
+            font-size: 11px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .nt-list-header .nt-slips-inner div span {
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .nt-list-header .nt-item-inner div h5,
+        .nt-list-header .nt-item-inner div span {
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+     
+        .nt-tip-item {
+            padding: 0 15px;
+            background: #2F3644;
+            border-bottom: 1px solid #454d55;
+            font-size: 13px;
+            color: #fff;
+        }
+
+        .nt-tip-item:nth-child(odd) {
+            background: #222530;
+        }
+
+        .nt-tip-item-inner {
+            display: flex;
+        }
+
+        .nt-tip-item-inner div {
+            width: 20%;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .nt-tip-item-inner div.nt-tip-inner-date {
+            width: 15%;
+        }
+
+        .nt-tip-item-inner div.nt-tip-inner-home {
+            width: 22%;
+        }
+
+        .nt-tip-item-inner div.nt-tip-inner-away {
+            width: 22%;
+        }
+
+        .nt-tip-item-inner .nt-tip-inner-score {
+            width: 16%;
+            text-align: center;
+        }
+
+        .nt-tip-item-inner div.nt-tip-inner-tip {
+            width: 10%;
+            text-align: center;
+        }
+
+        .nt-tip-item-inner div.nt-tip-inner-status {
+            width: 15%;
+            text-align: center;
+        }
+
+        .nt-tip-item-inner div.nt-tip-inner-status img {
+            max-width: 20px;
+            margin: 0 auto;
+            opacity: 0.75;
+        }
+
+        .nt-vs-list .nt-item:nth-child(odd) .nt-item-inner {
+            background: #222530;
+        }
+
+
+
+
+        .investment-section-dots {
+            display: none;
+        }
+
+        .nt-pricing-tables {
+            display: block;
+            margin-bottom: 100px;
+        }
+
+       
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-inner {
+            box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 10%);
+            border-radius: 10px;
+            transition: 0.2s ease-in-out;
+            max-width: 250px !important;
+            margin: 0 auto;
+        }
+
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-inner:hover {
+            transform: scale(1.025);
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-header {
+            text-align: center !important;
+            position: relative;
+            padding: 2rem 2rem 2.4rem;
+            min-height: 120px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-header .nt-pricing-type {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 18px;
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-header .nt-pricing-title {
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+            font-size: 24px;
+            color: white;
+            font-weight: 700;
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-price-wrap {
+            text-align: center !important;
+            padding: 15px;
+            min-height: 130px;
+            background: #fff;
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-price-wrap .nt-pricing-price {
+            position: relative;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            font-size: 32px;
+            color: #060606;
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-price-wrap .nt-pricing-price:after {
+            position: absolute;
+            width: 80%;
+            height: 0.1rem;
+            background-color: rgba(6, 6, 6, 0.1);
+            content: '';
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+
+        
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-features {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #dde4e8;
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-features ul {
+            list-style: none;
+            text-align: left;
+            padding: 0;
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-features ul li {
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(6, 6, 6, 0.5);
+            padding-left: 24px;
+            
+            background-position: left top 9px;
+            background-size: 12px;
+            background-repeat: no-repeat;
+            margin-bottom: 5px;
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-footer {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding: 24px;
+            margin-top: auto;
+            background: #fff;
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-footer a {
+            position: relative;
+            display: flex;
+            text-align: center !important;
+            font-size: 0;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            height: 48px;
+            border-width: 0.2rem;
+            border-style: solid;
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+            border-color: #d00102;
+            color: #d00102;
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-footer a:hover {
+            border-color: #d00102;
+            background-color: #d00102;
+            color: white;
+            background-position: right center;
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-footer a:before {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: attr(data-title);
+            font-size: 16px;
+            transition: transform 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-footer a:after {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: attr(data-title);
+            font-size: 16px;
+            transform: translateY(-100%);
+            transition: transform 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+
+        .hitandwin-pricing-carousel.slick-initialized .slick-prev {
+            left: 36%;
+            position: absolute;
+            bottom: -.625rem;
+            font-size: 1.25rem;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 0 .688rem 1.375rem 0 rgba(35, 35, 35, .08);
+            border: none;
+            height: 3.125rem;
+            width: 3.125rem;
+            padding: 0;
+            line-height: 3.125rem;
+            outline: 0;
+        }
+
+        .hitandwin-pricing-carousel.slick-initialized .slick-next {
+            right: 36%;
+            position: absolute;
+            bottom: -.625rem;
+            font-size: 1.25rem;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 0 .688rem 1.375rem 0 rgba(35, 35, 35, .08);
+            border: none;
+            height: 3.125rem;
+            width: 3.125rem;
+            padding: 0;
+            line-height: 3.125rem;
+            outline: 0;
+        }
+
+
+        .hitandwin-pricing-carousel.slick-initialized .slick-prev {
+            left: 30%;
+            bottom: -3.625rem;
+            height: 2.5rem;
+            width: 2.5rem;
+            line-height: 0;
+        }
+
+        .hitandwin-pricing-carousel.slick-initialized .slick-next {
+            right: 30%;
+            bottom: -3.625rem;
+            height: 2.5rem;
+            width: 2.5rem;
+            line-height: 0;
+        }
+
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-footer a:hover:before {
+            transform: translateY(100%);
+        }
+
+        .nt-pricing-tables .nt-pricing-item .nt-pricing-footer a:hover:after {
+            transform: translateY(0);
+        }
+
+        @media only screen and (max-width: 767px) {
+            .nt-pricing-tables {
+                flex-wrap: wrap;
+            }
+        }
+
+
+
+
+
+
+
+        @media only screen and (min-width: 992px) {
+            .nt-vs-list {
+                margin-top: 20px;
+                background: #242a37;
+                padding-bottom: 1px;
+            }
+
+            .hour-date {
+                display: none;
+            }
+
+            .nt-vs-list .nt-item {
+                margin-bottom: 0;
+                border-bottom: 1px solid #454d55;
+            }
+
+            .nt-create-account-step {
+                flex-wrap: wrap;
+            }
+
+            .nt-create-account-step .nt-item {
+                width: 100%;
+            }
+
+            .nt-create-account-step .nt-item .nt-item-inner {
+                padding: 30px;
+            }
+
+
+            .nt-vs-list .nt-item .nt-item-inner {
+                display: flex;
+                align-items: center;
+            }
+
+            .nt-match-name-and-date {
+                width: 360px;
+                display: flex;
+                align-items: center;
+            }
+
+            .nt-point.row {
+                width: 100%;
+            }
+
+            .nt-date {
+                width: 12%;
+                font-size: 14px;
+                display: block;
+            }
+
+            .nt-team {
+                flex-direction: column;
+                width: 28%;
+                display: block;
+                padding-left: 15px;
+                text-align: left !important;
+                overflow: hidden;
+                margin: 0;
+            }
+
+
+            .nt-team span.nt-vs {
+                display: none;
+            }
+
+            .nt-point.row {
+                margin-top: 0;
+                align-items: center;
+                width: 60%;
+                margin: 0;
+            }
+
+            .nt-point-item label .nt-point-word {
+                display: none;
+            }
+
+            .nt-point-item label {
+                justify-content: center;
+            }
+
+            .nt-team div {
+                max-width: 100% !important;
+                padding: 0;
+                display: flex;
+                margin-bottom: 5px;
+                align-items: center;
+            }
+
+            .nt-team div img {
+                width: 28px;
+                margin-right: 10px;
+                max-height: 30px;
+            }
+
+            span.nt-team-name {
+                width: 80px;
+            }
+
+
+            .nt-hitandwin-tabs-nav {
+                margin-top: 20px;
+            }
+
+        }
+
+        @media only screen and (min-width: 768px) {
+            .nt-hitandwin-banner-player {
+                top: 50px;
+                width: 500px;
+            }
+
+            .nt-hitandwin-banner-caption {
+                padding: 50px 15px;
+            }
+
+            .nt-hitandwin-banner-caption h3 {
+                font-size: 34px;
+                line-height: 48px;
+                margin-bottom: 15px;
+                font-weight: bold;
+            }
+
+            .nt-hitandwin-banner-caption h3 span {
+                display: block;
+                font-weight: 700;
+                font-size: 56px;
+            }
+
+            .nt-hitandwin-banner-caption p {
+                font-size: 20px !important;
+                text-transform: uppercase;
+                margin-bottom: 12px;
+            }
+
+            .nt-hitandwin-banner-caption a {
+                padding: 8px 24px;
+                font-size: 15px;
+                margin-top: 20px;
+            }
+        }
+
+
+        @media only screen and (max-width: 991px) {
+
+ 
+
+            .hour-date {
+                margin-right: 0px;
+                margin-left: auto;
+                font-size: 12px;
+                opacity: 0.7;
+            }
+
+            .nt-team {
+                border-bottom: 1px solid #5a5b5c;
+            }
+
+            span.nt-team-name {
+                font-size: 13px;
+            }
+
+            .nt-team div img {
+                width: 22px;
+                margin-right: 10px;
+                max-height: 25px;
+            }
+
+            .col-5.nt-match-right {
+                flex-direction: inherit;
+            }
+
+            .col-5.nt-match-right img {
+                margin-right: 10px;
+            }
+
+
+            .nt-point.row {
+                margin-top: 10px;
+            }
+
+            .nt-hitandwin-banner-caption {
+                color: #fff;
+                text-align: center;
+                width: 50%;
+                position: relative;
+                z-index: 99;
+            }
+
+            .nt-hitandwin-banner-caption h3 {
+                font-size: 24px;
+                line-height: 36px;
+                margin-bottom: 15px;
+                font-weight: 600;
+            }
+
+            .nt-hitandwin-banner-caption h3 span {
+                display: block;
+                font-weight: 700;
+                font-size: 32px;
+            }
+
+            .nt-hitandwin-banner-caption p {
+                font-size: 12px !important;
+                text-transform: uppercase;
+                margin-bottom: 2px;
+            }
+
+            .nt-hitandwin-banner-caption a {
+                font-size: 12px;
+                margin-top: 0px;
+            }
+
+            .nt-tip-item {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+
+        }
+
+        .banner-hitwin {
+            width: 100%;
+            max-width: 100% !important;
+            height: auto;
+            display: block;
+            padding-bottom: 10px;
+            border-radius: 10px;
+        }
+
+
+
+        .nt-modal-header-wrap {
+            text-align: center !important;
+            position: relative;
+            padding: 2rem 2rem 2.4rem;
+            min-height: 120px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #hitWinRules article {
+            margin-top: 20px;
+        }
+
+
+        #hitWinRules article ol li {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            color: #000;
+        }
+
+
+        #hitWinRules .modal-content {
+            border: 0;
+            background: #fff;
+            border-radius: 11px;
+        }
+
+        #hitWinRules .modal-content .nt-close-button button {
+            opacity: 1;
+            top: 10px !important;
+            right: 15px !important;
+            position: absolute;
+        }
+
+        #hitWinRules .modal-content .nt-form-header {
+            margin-top: 20px;
+        }
+
+        #hitWinRules .modal-content .nt-form-header h3 {
+            font-weight: 700;
+        }
+
+        #hitWinRules .modal-content .nt-form-header h5 {
+            font-weight: 400;
+        }
+
+        .nt-alert {
+            background: #2C2C2C;
+            border: 0px;
+            display: flex;
+            align-items: center;
+            padding: 0;
+            margin-top: 30px;
+        }
+
+        .nt-alert .nt-alert-icon {
+            width: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ff525221;
+            height: 100px;
+        }
+
+        .nt-alert .nt-alert-icon-bg {
+            background: #ff525282;
+            width: 25px;
+            height: 25px;
+            border-radius: 100px;
+        }
+
+        .nt-alert .nt-alert-content {
+            color: #ff5252e0;
+            font-size: 14px;
+            text-align: left;
+            padding: 15px;
+        }
+
+        .nt-modal-buttons {
+            display: flex;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .nt-modal-buttons .nt-close-btn {
+            width: 120px !important;
+            margin-right: 15px;
+            background: transparent !important;
+            color: #fff !important;
+            font-size: 14px !important;
+            border: 2px solid #ccc !important;
+            padding: 8px !important;
+            height: 44px !important;
+        }
+
+        .nt-modal-buttons .nt-cancel-btn {
+            padding: 8px !important;
+            height: 44px !important;
+            font-size: 14px !important;
+            background: #FF5252 !important;
+        }
+
+
+        @media only screen and (max-width: 787px) {
+            #hitWinRules article ol li {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 8px;
+                color: #000;
+            }
+
+            .nt-slips-inner div span {
+                font-size: 12px;
+            }
+
+
+        }
+
+        .container-iframe {
+            position: relative;
+            padding-bottom: 56.25%;
+        
+            padding-top: 25px;
+            height: 0;
+        }
+
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }

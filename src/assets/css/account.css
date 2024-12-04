@@ -1,0 +1,467 @@
+
+
+
+
+
+section {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 80px;
+}
+
+.dashboard-container {
+display: flex;
+gap: 20px;
+background-color: #252a40;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+max-width: 1900px;
+width: 100%;
+
+}
+
+
+.profile-card {
+background-color: #2e3348;
+padding: 20px;
+width: 30%;
+border-radius: 10px;
+text-align: center;
+}
+
+.profile-card h3 {
+margin-top: 0;
+}
+
+.subscribe-btn {
+display: inline-block;
+padding: 10px 20px;
+color: white;
+background: linear-gradient(45deg, #d00102, #6b0204);
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-weight: bold;
+margin-top: 10px;
+text-decoration: none;
+transition: opacity 0.3s;
+}
+
+.subscribe-btn:hover {
+opacity: 0.9;
+color: black;
+}
+
+
+.menu-list {
+background-color: #2e3348;
+padding: 20px;
+width: 70%;
+border-radius: 10px;
+}
+
+.menu-item {
+display: flex;
+align-items: center;
+padding: 10px 15px;
+border-bottom: 1px solid #3a3f54;
+color: #aaa;
+cursor: pointer;
+justify-content: space-between;
+transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+background-color: #333850;
+color: #fff;
+}
+
+.menu-item svg {
+margin-right: 10px;
+fill: currentColor;
+}
+
+.menu-item:last-child {
+border-bottom: none;
+}
+
+
+.dropdown-content {
+display: none;
+padding: 10px 15px;
+background-color: #333850;
+color: #bbb;
+border-left: 4px solid #7873f5;
+margin-bottom: 10px;
+}
+
+
+
+
+
+.nt-footer .nt-footer-content.social a p {
+
+    font-size: 14px;
+
+    color: #bebebe;
+
+}
+
+.icon-box-outer svg,
+.single-statics .icon-box svg {
+    width: 40px;
+    height: 54px;
+}
+
+.deposit-section-right .icon-box-outer svg {
+    width: 40px;
+    height: 54px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    top: 50%;
+    margin-top: -26px;
+}
+
+.single-statics .icon-box svg path {
+    fill: #f50;
+}
+
+.icon-box-outer svg path {
+    fill: #fff;
+}
+
+.single-box svg {
+    width: 98px;
+    height: 133px;
+}
+
+.single-box svg path {
+    fill: #fb9516
+}
+
+.calculate-left svg {
+    width: 50px;
+    height: 68px;
+}
+
+.calculate-left svg path {
+    fill: #fff
+}
+
+.signup-right-text svg {
+    width: 30px;
+    height: 45px;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.signup-right-text svg path {
+    fill: #eef4fb;
+}
+
+.questions-section .questions-tab-content .questions-tab-pane .questions-accordion .questions-card .questions-card-header .questions-btn-link {
+    position: relative;
+}
+
+.questions-section .questions-tab-content .questions-tab-pane .questions-accordion .questions-card .questions-card-header .questions-btn-link:before,
+.questions-section .questions-tab-content .questions-tab-pane .questions-accordion .questions-card .questions-card-header .collapsed:before {
+    top: 50% !important;
+    right: -15px !important;
+    transform: translateY(-50%);
+}
+
+.nt-lists:nth-child(2) {
+    display: none !important;
+}
+
+.deposit-section .deposit-section-right .icon-box-outer .icon-box {
+    position: relative;
+}
+
+.iti.iti--allow-dropdown {
+    width: 100%;
+}
+
+.iti__country-list {
+    width: 400px;
+    white-space: normal;
+}
+
+.nt-page .nt-auth-wrap .nt-social-login li a {
+    border-radius: 4px;
+    width: 100%;
+    height: 44px;
+    position: relative;
+}
+
+.nt-page .nt-auth-wrap .nt-social-login li a span.s-btn-text {
+    color: #fff;
+    font-weight: 600;
+}
+
+.nt-page .nt-auth-wrap .nt-social-login span.icon-box {
+    position: absolute;
+    left: 15px;
+    width: 20px;
+    border-right: 1px solid rgba(255, 255, 255, .4);
+    padding-right: 30px;
+}
+
+.g-recaptcha>div {
+    margin: 0 auto;
+}
+
+.nt-page .nt-auth-wrap .nt-form-header {
+    max-width: 320px !important;
+    margin: 0 auto;
+}
+
+.login-hidden-body {
+    display: none;
+}
+
+.nt-page .nt-auth-wrap .nt-social-login li a.elrond {
+    background: #7532B4;
+}
+
+.nt-page .nt-auth-wrap .nt-social-login li a.email {
+    background: rgb(82, 176, 48);
+}
+
+#login-wallet {
+    display: none;
+}
+
+.login-email {
+    margin: 10px;
+    text-align: center;
+}
+
+a.login-email-btn,
+a.login-wallet-btn {
+    background: rgb(82, 176, 48);
+    width: 100%;
+    display: block;
+    height: 44px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+a.login-email-btn,
+a.login-email-btn {
+    background: rgb(82, 176, 48);
+    width: 100%;
+    display: block;
+    height: 44px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+a.login-email-btn .icon-box svg {
+    width: 24px !important;
+    height: 24px;
+}
+
+a.login-email-btn span.icon-box {
+    position: absolute;
+    left: 15px;
+    width: 20px;
+    border-right: 1px solid rgba(255, 255, 255, .4);
+    padding-right: 30px;
+}
+
+.back-to-social,
+.back-to-home {
+    background: rgb(232, 240, 254) !important;
+    color: #000 !important;
+}
+
+.login-email h3 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+footer.text-center.nt-form-footer.p-3 {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.nt-page .nt-auth-wrap .nt-social-login li {
+    width: 100% !important;
+}
+
+.error-validation {
+    display: none;
+    color: red;
+}
+
+.error-validation-main {
+    display: none;
+}
+
+.notification {
+    width: 60vw;
+    height: 40px;
+    border-radius: 0px 0px 5px 5px;
+    margin: 0 auto;
+    box-shadow: #95a5a6 0px 0px 6px 2px;
+    color: white;
+    line-height: 40px;
+    overflow: hidden;
+    -webkit-animation: reveal 1 2s;
+    animation: reveal 1 2s;
+}
+
+.notification .title {
+    margin-right: 15px;
+    padding: 0px 15px;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.notification .close-message {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0px 15px;
+    float: right;
+    line-height: 40px;
+    display: inline-block;
+    color: white;
+}
+
+.notification .close-message:hover {
+    cursor: pointer;
+}
+
+.notification .closed {
+    transform: translate(0px, -50px);
+    transition: 0.7s;
+}
+
+.notification-success {
+    background: #2ecc71;
+}
+
+.notification-success .title {
+    background: #27ae60;
+}
+
+.notification-error {
+    background: #e74c3c;
+}
+
+.notification-error .title {
+    background: #c0392b;
+}
+
+.notification-warning {
+    background: #f1c40f;
+}
+
+.notification-warning .title {
+    background: #f39c12;
+}
+
+.notification-normal {
+    background: #3498db;
+}
+
+.notification-normal .title {
+    background: #2980b9;
+}
+
+.nt-footer-license {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.license-icon {
+    margin-right: 10px;
+}
+
+.license-icon img {
+    width: 36px;
+}
+
+
+.nt-ad-banner-section {
+    margin-top: 0px !important;
+}
+
+@media only screen and (max-width: 991.98px) {
+    .nt-page .header-space {
+        height: 130px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+
+  
+    .nt-page .reunir-navbar #primary-menu .nav-item .nav-link,
+    .reunir-navbar .navbar-nav .nav-link {
+        font-size: 12.5px !important;
+    }
+
+    .signup-right-text svg {
+        right: 10px;
+        width: 24px;
+    }
+
+    .iti__country-list {
+        width: 340px;
+    }
+
+}
+
+@media screen and (max-width: 767.98px) {
+    .iti__country-list {
+        width: 325px;
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .iti__country-list {
+        width: calc(100vw - 95px);
+    }
+
+    .notification {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .reunir-navbar .logo-section .logo-title img {
+        display: none;
+    }
+
+}
+
+body {
+    font-family: 'PayPal Sans Small', 'sans-serif' !important;
+}
+
+* {
+    font-family: 'PayPal Sans Small' !important;
+}
+
